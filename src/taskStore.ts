@@ -6,7 +6,9 @@ export interface Task {
 
 // In-memory store
 let tasks: Task[] = [
+<<<<<<< HEAD
   { id: 1, title: "Master CI/CD Pipeline", done: false },
+>>>>>>> feature-conflict
   { id: 2, title: "Fix the Failing Test", done: false },
   { id: 3, title: "Review the Dockerfile", done: true },
 ];
