@@ -33,3 +33,6 @@ jobs:
           path: |
             coverage/
             *.log
+
+      - name: Build Docker image
+        run: docker build -t tinytask:latest .
