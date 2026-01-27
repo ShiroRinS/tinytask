@@ -6,7 +6,7 @@ export interface Task {
 
 // In-memory store
 let tasks: Task[] = [
-  { id: 1, title: "Understand CI Stages", done: false },
+  { id: 1, title: "Learn GitHub Actions", done: false },
   { id: 2, title: "Fix the Failing Test", done: false },
   { id: 3, title: "Review the Dockerfile", done: true },
 ];
