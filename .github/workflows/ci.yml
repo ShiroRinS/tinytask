@@ -97,7 +97,7 @@ jobs:
           context: .
           push: true
           tags: |
-            vanijtarnakit/tinytask:latest             ## FIX NAME ##############
-            vanijtarnakit/tinytask:${{ github.sha }}  ## FIX NAME ##############
+            vanijtarnakit/tinytask:latest
+            vanijtarnakit/tinytask:${{ github.sha }}
 
 
